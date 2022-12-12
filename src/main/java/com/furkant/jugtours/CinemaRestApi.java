@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class JugtoursApplication {
+public class CinemaRestApi {
 
 	public static void main(String[] args) {
-		SpringApplication.run(JugtoursApplication.class, args);
+		SpringApplication.run(CinemaRestApi.class, args);
 	}
 
 }
