@@ -1,4 +1,4 @@
-package com.furkant.jugtours.model;
+package com.furkant.jugtours.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

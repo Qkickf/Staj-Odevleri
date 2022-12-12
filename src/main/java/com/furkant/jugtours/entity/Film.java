@@ -1,15 +1,12 @@
-package com.furkant.jugtours.model;
+package com.furkant.jugtours.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
-import jakarta.persistence.ManyToMany;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import java.util.Set;
 
 @Data
 @NoArgsConstructor
@@ -20,6 +17,10 @@ public class Film {
     @Id
     @GeneratedValue
     private Long id;
-    private String name;
+    private String title;
+    private String category;
+    private String description;
+
+
 
 }

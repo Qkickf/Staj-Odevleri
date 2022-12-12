@@ -1,6 +1,6 @@
 package com.furkant.jugtours;
 
-import com.furkant.jugtours.model.FilmRepository;
+import com.furkant.jugtours.repository.FilmRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 

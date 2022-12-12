@@ -1,7 +1,7 @@
-package com.furkant.jugtours.web;
+package com.furkant.jugtours.controller;
 
-import com.furkant.jugtours.model.Actor;
-import com.furkant.jugtours.model.FilmRepository;
+import com.furkant.jugtours.entity.Actor;
+import com.furkant.jugtours.repository.FilmRepository;
 import jakarta.validation.Valid;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,4 +1,4 @@
-package com.furkant.jugtours.model;
+package com.furkant.jugtours.entity;
 
 
 import jakarta.persistence.*;
@@ -21,6 +21,7 @@ public class Actor {
     @NonNull
     private String name;
     private String surname;
+    private String nationality;
     @ManyToMany
     private Set<Film> attendees;
 
